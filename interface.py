@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class TaskManager:
+class TaskManager(ABC):
 
     @abstractmethod
     def assign_task(self, employee, task):
