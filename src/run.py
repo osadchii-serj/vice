@@ -4,7 +4,7 @@ from logger import TaskManagerLogger
 from interface import TaskManager
 
 
-def client_code(vice: LoggingTaskManager, employee: str, task: str):
+def client_code(vice: TaskManager, employee: str, task: str):
     vice.assign_task(employee, task)
     vice.get_task_status(task)
 
