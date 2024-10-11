@@ -1,3 +1,13 @@
+# Заместитель
+
+>Реализация паттерна - "Заместитель" - учебный репозиторий.
+
+
+![Image alt](https://github.com/osadchii-serj/vice/raw/main/svg/vice.svg)
+
+***
+
+
 ### Интерфейс TaskManager:
 >Определяет методы для назначения задач (assign_task) и получения статуса выполнения задач (get_task_status).
 
